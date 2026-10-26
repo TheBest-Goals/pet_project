@@ -24,6 +24,8 @@ RESTful API сервис для маркетплейса цифровых тов
 После локального запуска бэкенда интерактивная документация эндпоинтов и возможность их тестирования доступны по адресу:
 
 👉 **[http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)**
+<img width="1475" height="963" alt="image" src="https://github.com/user-attachments/assets/9ec5998d-b282-4097-8f4a-c453ca0fdcc5" />
+
 
 ---
 

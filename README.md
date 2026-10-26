@@ -58,5 +58,10 @@ RESTful API сервис для маркетплейса цифровых тов
 ./mvnw spring-boot:run
 Приложение будет доступно по адресу: http://localhost:8080
 
-📝 Эндпоинты API (Основные)МетодЭндпоинтОписаниеДоступPOST/api/auth/registerРегистрация нового пользователяPublicPOST/api/auth/loginАвторизация и получение JWTPublicGET/api/productsПолучение списка товаровPublicPOST/api/productsДобавление нового товараAdminPOST/api/ordersОформление заказаAuthenticated
+📝 Эндпоинты API (Основные)
+POST	->  /api/auth/register ->	Регистрация нового пользователя	Public
+POST	-> /api/auth/login	-> Авторизация и получение JWT	Public
+GET	-> /api/products	-> Получение списка товаров	Public
+POST	-> /api/products ->	Добавление нового товара	Admin
+POST  -> /api/orders  ->  Оформление заказаAuthenticated
   

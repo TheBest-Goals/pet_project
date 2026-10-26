@@ -10,12 +10,20 @@ RESTful API сервис для маркетплейса цифровых тов
 
 * **Language:** Java 17+
 * **Framework:** Spring Boot 3 (Spring Data JPA, Spring Security, Spring Web)
+* **API Documentation:** Swagger UI / OpenAPI 3
 * **Authentication:** JWT (JSON Web Tokens)
 * **Database:** PostgreSQL
 * **Database Migration:** Flyway
 * **Containerization:** Docker & Docker Compose
 * **Testing:** JUnit 5, Mockito
 
+---
+
+## 📖 Интерактивная документация API (Swagger)
+
+После локального запуска бэкенда интерактивная документация эндпоинтов и возможность их тестирования доступны по адресу:
+
+👉 **[http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)**
 ---
 
 ## 🚀 Основные возможности

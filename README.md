@@ -49,3 +49,14 @@ RESTful API сервис для маркетплейса цифровых тов
    ```bash
    git clone [https://github.com/TheBest-Goals/pet_project.git](https://github.com/TheBest-Goals/pet_project.git)
    cd pet_project
+
+2. Запустите PostgreSQL через Docker:
+  docker compose up -d
+  Запустите Spring Boot приложение:
+
+3. Запустите Spring boot:
+./mvnw spring-boot:run
+Приложение будет доступно по адресу: http://localhost:8080
+
+📝 Эндпоинты API (Основные)МетодЭндпоинтОписаниеДоступPOST/api/auth/registerРегистрация нового пользователяPublicPOST/api/auth/loginАвторизация и получение JWTPublicGET/api/productsПолучение списка товаровPublicPOST/api/productsДобавление нового товараAdminPOST/api/ordersОформление заказаAuthenticated
+  
